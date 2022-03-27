@@ -6,46 +6,44 @@ body {
   margin-left: 3%;
   float:left;
   width: 30%;
-  border: 2px solid rgb(102, 152, 165);
+  border: 2px solid rgb(18, 150, 84);
   border-width: 20px;
-  background-color: rgb(236, 185, 221);
-
 }
 
 h1 {
   font-size: 150px; 
   text-align: center;
-  color: rgb(111, 56, 161);
+  color: rgb(69, 17, 117);
 }
 
 h2 {
   font-size: 100px; 
   text-align: center;
-  color: rgb(111, 56, 161);
+  color: rgb(134, 94, 172);
 }
 
 .favorite {
   font-size: 70px;
-  margin-left:25%;
+  margin-left:40%;
   margin-bottom:50px;
-
-  text-align: center;
+  text-align: left;
   color: rgb(111, 56, 161);
-  width: 30%;
-  padding: 50px;
-  border: 2px solid rgb(102, 152, 165);
+  width: 25%;
+  padding: 60px;
+  border: 2px solid rgb(206, 56, 156);
   border-width: 20px;
   background-color: rgb(236, 185, 221);
 
 }
 .Disliked {
   font-size: 70px;
-  margin-left:50%;
+  margin-left:60%;
   text-align: center;
   color: rgb(111, 56, 161);
-  width: 30%;
+  text-align: left;
+  width: 25%;
   padding: 50px;
-  border: 2px solid rgb(102, 152, 165);
+  border: 2px solid rgb(16, 85, 102);
   border-width: 20px;
   background-color: rgb(236, 185, 221);
 
@@ -54,3 +52,4 @@ p {
   font-size: 100px; 
   text-align: center;
   color: rgb(111, 56, 161)
+}
