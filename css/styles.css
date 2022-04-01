@@ -1,9 +1,13 @@
+body {
+  background-color: rgb(235, 197, 203);
+}
 h1 {
   color: #5502FA;
   text-align: left;
 }
 
 h2 {
+  margin-top:2%;
   font-style: italic;
   text-align: center;
   font-size: 30px;
@@ -11,6 +15,7 @@ h2 {
 }
 
 p {
+  margin-left:3%;
   font-family: sans-serif;
   color: rgb(91, 165, 199);
   font-size: 20px;
@@ -22,32 +27,36 @@ ul {
   line-height: 30px;
 }
 .favorite {
-  font-size: 20px;
+  font-size: 30px;
   text-align: left;
   color: rgb(111, 56, 161);
-  width: 30%;
+  width: 20%;
+  margin-top:2%;
+  margin-left:8%;
   padding: 10px;
-  border: 1px solid rgb(206, 56, 156);
+  border: 1px solid rgb(219, 115, 205);
   border-width: 10px;
   background-color: rgb(236, 185, 221);
 
 }
 .Disliked {
-  font-size: 20px;
+  font-size: 30px;
+  margin-top:2%;
   margin-left:35%;
   text-align: center;
   color: rgb(111, 56, 161);
   text-align: left;
-  width: 30%;
+  width: 22%;
   padding: 20px;
-  border: 2px solid rgb(16, 85, 102);
+  border: 2px solid rgb(77, 221, 216);
   border-width: 10px;
   background-color: rgb(236, 185, 221);
 }
 .dog {
- float: right;
-  width: 30%;
-  border: 1px solid rgb(128, 62, 114);
+  float: right;
+  margin-right:8%;
+  width: 25%;
+  border: 1px solid rgb(173, 69, 151);
   border-width: 10px;
 }
 
@@ -58,3 +67,8 @@ ul {
 .black-background {
   background-color: black;
 }
+
+.original-background {
+  background-color: none;
+}
+

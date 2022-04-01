@@ -8,4 +8,10 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("black-background");
   });
+
+  $("button#original").click(function() {
+    $("body").removeClass();
+    $("body").addClass("original-background");
+
+ });   
 });
