@@ -1,55 +1,60 @@
-body {
-  background-color: rgb(104, 192, 219);
-}
-
-.dog {
-  margin-left: 3%;
-  float:left;
-  width: 30%;
-  border: 2px solid rgb(18, 150, 84);
-  border-width: 20px;
-}
-
 h1 {
-  font-size: 150px; 
-  text-align: center;
-  color: rgb(69, 17, 117);
+  color: #5502FA;
+  text-align: left;
 }
 
 h2 {
-  font-size: 100px; 
+  font-style: italic;
   text-align: center;
+  font-size: 30px;
   color: rgb(134, 94, 172);
 }
 
+p {
+  font-family: sans-serif;
+  color: rgb(91, 165, 199);
+  font-size: 20px;
+}
+
+ul {
+  font-size: 20px;
+  color: rgb(55, 179, 102);
+  line-height: 30px;
+}
 .favorite {
-  font-size: 70px;
-  margin-left:40%;
-  margin-bottom:50px;
+  font-size: 20px;
   text-align: left;
   color: rgb(111, 56, 161);
-  width: 25%;
-  padding: 60px;
-  border: 2px solid rgb(206, 56, 156);
-  border-width: 20px;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid rgb(206, 56, 156);
+  border-width: 10px;
   background-color: rgb(236, 185, 221);
 
 }
 .Disliked {
-  font-size: 70px;
-  margin-left:60%;
+  font-size: 20px;
+  margin-left:35%;
   text-align: center;
   color: rgb(111, 56, 161);
   text-align: left;
-  width: 25%;
-  padding: 50px;
+  width: 30%;
+  padding: 20px;
   border: 2px solid rgb(16, 85, 102);
-  border-width: 20px;
+  border-width: 10px;
   background-color: rgb(236, 185, 221);
-
 }
-p {
-  font-size: 100px; 
-  text-align: center;
-  color: rgb(111, 56, 161)
+.dog {
+ float: right;
+  width: 30%;
+  border: 1px solid rgb(128, 62, 114);
+  border-width: 10px;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.black-background {
+  background-color: black;
 }
